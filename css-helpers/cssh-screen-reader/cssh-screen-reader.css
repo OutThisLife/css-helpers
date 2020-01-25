@@ -1,0 +1,11 @@
+
+.cssh-screen-reader{
+    width: var(--csshScreenReaderWidth, 1px) !important;
+    height: var(--csshScreenReaderHeight, 1px) !important;
+    padding: var(--csshScreenReaderPadding, 0) !important;
+    border: var(--csshScreenReaderBorder, none) !important;
+
+    position: var(--csshScreenReaderPosition, absolute) !important;
+	clip: var(--csshScreenReaderClip, rect(1px, 1px, 1px, 1px)) !important;
+	overflow: var(--csshScreenReaderOverflow, hidden) !important;
+}
