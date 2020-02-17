@@ -1,0 +1,7 @@
+
+.cssh-media-placeholder__media{
+    position: var(--mediaPlaceholderMediaPosition, absolute);
+    top: var(--mediaPlaceholderMediaTop, 0);
+    left: var(--mediaPlaceholderMediaLeft, 0);
+    max-width: var(--mediaPlaceholderMediaMaxWidth, 100%);
+}
