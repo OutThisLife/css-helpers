@@ -2,12 +2,12 @@
 @import '__media.css';
 
 .cssh-media-placeholder{
-    position: var(--mediaPlaceholderPosition, relative);
+    position: var(--csshMediaPlaceholderPosition, relative);
 }
 
 .cssh-media-placeholder::before{
     content: "";
     display: block;
-    padding-top: var(--mediaPlaceholderRatio);
-    background-color: var(--mediaPlaceholderBgColor);
+    padding-top: var(--csshMediaPlaceholderRatio);
+    background-color: var(--csshMediaPlaceholderBgColor);
 }

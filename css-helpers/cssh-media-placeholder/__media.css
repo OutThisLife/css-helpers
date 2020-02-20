@@ -1,7 +1,7 @@
 
 .cssh-media-placeholder__media{
-    position: var(--mediaPlaceholderMediaPosition, absolute);
-    top: var(--mediaPlaceholderMediaTop, 0);
-    left: var(--mediaPlaceholderMediaLeft, 0);
-    max-width: var(--mediaPlaceholderMediaMaxWidth, 100%);
+    position: var(--csshMediaPlaceholderMediaPosition, absolute);
+    top: var(--csshMediaPlaceholderMediaTop, 0);
+    left: var(--csshMediaPlaceholderMediaLeft, 0);
+    max-width: var(--csshMediaPlaceholderMediaMaxWidth, 100%);
 }
