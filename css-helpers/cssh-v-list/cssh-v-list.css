@@ -1,0 +1,7 @@
+
+@import '__group.css';
+
+.cssh-v-list{
+    display: var(--csshVListDisplay, flex) !important;
+    flex-direction: var(--csshVListFlexDirection, column) !important;
+}
