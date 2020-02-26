@@ -1,0 +1,4 @@
+
+.cssh-h-list__group:nth-child(n+2){
+    margin-left: var(--csshHListItemsMargin, .25rem) !important;
+}
